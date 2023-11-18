@@ -44,36 +44,36 @@ const Hero = () => {
             <span className={`${styles.heroHeadText} text-white`}>
               {/* <img src={handWave} alt="wave" className=" w-[60px]" /> */}
               <img src={handWave} alt="wave" className="w-[60px]" />
-              <span className="text-[#915EFF] text-shadow-lg">
+              <span className="text-[#56ccf2] text-shadow-lg">
                 Front-End <br className="sm:block hidden" /> Developer
               </span>
             </span>
             <div className="text-3xl mt-3 flex gap-3">
               <Link
                 to={"https://www.linkedin.com/in/mohammedsanaved/"}
-                className="hover:scale-105 hover:translate-y-[-4px] transition-all duration-300 text-[#915EFF]"
+                className="hover:scale-105 hover:translate-y-[-4px] transition-all duration-300 text-[#56ccf2] text-shadow-lg"
               >
                 <SiLinkedin />
               </Link>
               <Link
                 to={"https://github.com/mohammedsanaved"}
-                className="hover:scale-105 hover:translate-y-[-4px] transition-all duration-300 text-[#915EFF]"
+                className="hover:scale-105 hover:translate-y-[-4px] transition-all duration-300 text-[#56ccf2] text-shadow-lg"
               >
                 <SiGithub />
               </Link>
-              <span className=" px-1 py-[.5px] rounded-full flex">
-                <span className="font-semibold text-3xl text-[#ffffff] sm:text-2xl">
-                  CV
+              <span className=" px-1 py-[.5px] rounded-xl flex bg-[#56ccf2] shadow-current">
+                <span className="flex font-semibold items-center text-base text-[#000] sm:text-xl">
+                  Download CV
+                  <a
+                    href={cv}
+                    download={"Mohammed-Sanaved-CV"}
+                    // className="bg-[#915EFF] px-1 py-[.5px] rounded-full text-black"
+                  >
+                    <span>
+                      <MdDownload className="h-10 sm:text-2xl text-2xl text-[#000] duration-300 transition-all hover:translate-y-2" />
+                    </span>
+                  </a>
                 </span>
-                <a
-                  href={cv}
-                  download={"Mohammed-Sanaved-CV"}
-                  // className="bg-[#915EFF] px-1 py-[.5px] rounded-full text-black"
-                >
-                  <span>
-                    <MdDownload className="h-10 sm:text-2xl text-2xl text-[#ffffff] duration-300 transition-all hover:translate-y-2" />
-                  </span>
-                </a>
               </span>
             </div>
 
@@ -95,20 +95,15 @@ const Hero = () => {
               variants={slideIn("right", "tween", 0.2, 1)}
               className=""
             >
-              {/* <EarthCanvas /> */}
               <Tilt
                 options={{
                   max: 45,
                   scale: 1,
                   speed: 450,
                 }}
-                className=""
+                className="justify-center"
               >
-                <img
-                  src={me}
-                  alt="me"
-                  className="justify-center bg-cover order-1 ani"
-                />
+                <img src={me} alt="me" className=" bg-cover order-1 ani" />
               </Tilt>
             </motion.div>
           </Suspense>

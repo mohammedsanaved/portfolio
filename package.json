@@ -13,6 +13,7 @@
     "@react-three/drei": "^9.88.16",
     "@react-three/fiber": "^8.15.11",
     "framer-motion": "^10.16.5",
+    "gsap": "^3.12.2",
     "maath": "^0.10.4",
     "prettier": "^3.1.0",
     "prettier-plugin-tailwindcss": "^0.5.7",
