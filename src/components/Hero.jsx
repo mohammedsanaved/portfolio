@@ -14,6 +14,7 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import CanvasLoader from "./Loader";
 import { Suspense } from "react";
+import { Tilt } from "react-tilt";
 {
   /* <img
                 src={
@@ -24,7 +25,7 @@ import { Suspense } from "react";
               /> */
 }
 
-const Hero = ({ onMouseEnter, onMouseLeave }) => {
+const Hero = () => {
   return (
     // <section
     //   className={`relative xl:mt-12 flex xl:flex-row flex-col-reverse gap-10`}
@@ -43,11 +44,7 @@ const Hero = ({ onMouseEnter, onMouseLeave }) => {
             <span className={`${styles.heroHeadText} text-white`}>
               {/* <img src={handWave} alt="wave" className=" w-[60px]" /> */}
               <img src={handWave} alt="wave" className="w-[60px]" />
-              <span
-                className="text-[#915EFF] text-shadow-lg"
-                onMouseEnter={onMouseEnter}
-                onMouseLeave={onMouseLeave}
-              >
+              <span className="text-[#915EFF] text-shadow-lg">
                 Front-End <br className="sm:block hidden" /> Developer
               </span>
             </span>
@@ -99,11 +96,20 @@ const Hero = ({ onMouseEnter, onMouseLeave }) => {
               className=""
             >
               {/* <EarthCanvas /> */}
-              <img
-                src={me}
-                alt="me"
-                className="justify-center bg-cover order-1 ani"
-              />
+              <Tilt
+                options={{
+                  max: 45,
+                  scale: 1,
+                  speed: 450,
+                }}
+                className=""
+              >
+                <img
+                  src={me}
+                  alt="me"
+                  className="justify-center bg-cover order-1 ani"
+                />
+              </Tilt>
             </motion.div>
           </Suspense>
         </div>
