@@ -20,9 +20,9 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Dont be shy! Hit me up! 👇</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-        <div className="flex justify-evenly mt-6">
+        <div className="flex gap-4 items-center mt-6">
           <div
-            className={`text-xl sm:text-3xl text-black bg-[#eee] p-2 rounded-full`}
+            className={`text-xl sm:text-3xl text-black bg-[#eee] p-1 rounded-full`}
           >
             <CiMap />
           </div>
@@ -30,9 +30,9 @@ const Contact = () => {
             Akola, Maharashtra, INDIA
           </div>
         </div>
-        <div className="flex justify-evenly mt-6">
+        <div className="flex gap-4 items-center mt-6">
           <div
-            className={`text-xl sm:text-3xl bg-[#eee] p-2 text-black rounded-full`}
+            className={`text-xl sm:text-3xl bg-[#eee] p-1 text-black rounded-full`}
           >
             <MdMail />
           </div>
