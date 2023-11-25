@@ -14,6 +14,7 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import CanvasLoader from "./Loader";
 import { Suspense } from "react";
+import { Download } from "lucide";
 {
   /* <img
                 src={
@@ -60,16 +61,17 @@ const Hero = () => {
               >
                 <SiGithub />
               </Link>
-              <span className=" px-1 py-[.5px] rounded-xl flex bg-[#56ccf2] shadow-current">
+              <span className=" px-[.3px] py-[.5px] rounded-md flex bg-[#56ccf2] shadow-current">
                 <span className="flex font-semibold items-center text-base text-[#000] sm:text-xl">
-                  Download CV
                   <a
                     href={cv}
                     download={"Mohammed-Sanaved-CV"}
+                    title="DOWNLOAD THE CV"
                     // className="bg-[#915EFF] px-1 py-[.5px] rounded-full text-black"
                   >
                     <span>
                       <MdDownload className="h-10 sm:text-2xl text-2xl text-[#000] duration-300 transition-all hover:translate-y-2" />
+                      {/* <Download /> */}
                     </span>
                   </a>
                 </span>
