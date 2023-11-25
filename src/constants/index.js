@@ -25,6 +25,7 @@ import {
   threejs,
   nikePro,
   worldHotel,
+  Pizzashop,
 } from "../assets";
 
 export const navLinks = [
@@ -275,6 +276,28 @@ const projects = [
     image: nikePro,
     source_code_link: "https://github.com/mohammedsanaved/front-nike-stripe",
     demo_link: "https://front-nike-stripe-2bh2.vercel.app/",
+  },
+  {
+    name: "Pizza Shop",
+    description:
+      "Add your Fav Dish on Your Table.Enable users to pay for the Product .Solely responsible for the development and deployment of the project",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "green-text-gradient",
+      },
+    ],
+    image: Pizzashop,
+    source_code_link: "https://github.com/mohammedsanaved/react-pizza",
+    demo_link: "https://react-pizza-murex.vercel.app/",
   },
   // {
   //   name: "Trip Guide",

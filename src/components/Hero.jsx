@@ -14,7 +14,6 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import CanvasLoader from "./Loader";
 import { Suspense } from "react";
-import { Tilt } from "react-tilt";
 {
   /* <img
                 src={
@@ -95,16 +94,7 @@ const Hero = () => {
               variants={slideIn("right", "tween", 0.2, 1)}
               className=""
             >
-              <Tilt
-                options={{
-                  max: 45,
-                  scale: 1,
-                  speed: 450,
-                }}
-                className="justify-center"
-              >
-                <img src={me} alt="me" className=" bg-cover order-1 ani" />
-              </Tilt>
+              <img src={me} alt="me" className=" bg-cover order-1 ani" />
             </motion.div>
           </Suspense>
         </div>
