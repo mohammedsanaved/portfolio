@@ -254,19 +254,19 @@
 }
 .ani {
   animation: profile 5s ease-in-out infinite 1s;
-  border: 4px solid #9868ff;
+  border: 7px solid #9868ff;
 }
 @keyframes profile {
   0% {
-    border-color: #9868ff;
+    border-color: #804dee;
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
   50% {
-    border-color: #47fff0;
+    border-color: rgb(0, 129, 204);
     border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
   }
   100% {
-    border-color: #9868ff;
+    border-color: #804dee;
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
 }
