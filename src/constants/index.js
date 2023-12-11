@@ -19,13 +19,15 @@ import {
   starbucks,
   tesla,
   shopify,
-  jobit,
-  tripguide,
+  // jobit,
+  // tripguide,
   // carrent,
   threejs,
   nikePro,
   worldHotel,
   Pizzashop,
+  natours,
+  trillo,
 } from "../assets";
 
 export const navLinks = [
@@ -299,28 +301,62 @@ const projects = [
     source_code_link: "https://github.com/mohammedsanaved/react-pizza",
     demo_link: "https://react-pizza-murex.vercel.app/",
   },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  //   demo_link: "#",
-  // },
+  {
+    name: "Natours",
+    description:
+      "A beautiful Landing Page for a fictional adventour tour company Built while learning Advanced CSS and Sass",
+    tags: [
+      {
+        name: "Advanced CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Pseudo classes & elements",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "7-1 Sass Architecture",
+        color: "green-text-gradient",
+      },
+      {
+        name: "BEM Methodology",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: natours,
+    source_code_link: "https://github.com/mohammedsanaved/Natours",
+    demo_link: "https://toursite-sable.vercel.app/",
+  },
+  {
+    name: "Natours",
+    description:
+      "A beautiful home page for a fictional hotel booking website Built while learning CSS Flexbox and Sass",
+    tags: [
+      {
+        name: "Advanced CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Pseudo classes & elements",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CSS FlexBox",
+        color: "green-text-gradient",
+      },
+      {
+        name: "7-1 Sass Architecture",
+        color: "green-text-gradient",
+      },
+      {
+        name: "BEM Methodology",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: trillo,
+    source_code_link: "https://github.com/mohammedsanaved/trillo",
+    demo_link: "https://trilloapp.vercel.app/",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

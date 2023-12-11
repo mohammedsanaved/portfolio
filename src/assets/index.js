@@ -32,7 +32,8 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import natours from "./natours.png";
+import trillo from "./trillo.png";
 export {
   logo,
   backend,
@@ -65,4 +66,6 @@ export {
   nikePro,
   worldHotel,
   Pizzashop,
+  natours,
+  trillo,
 };
