@@ -34,6 +34,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import natours from "./natours.png";
 import trillo from "./trillo.png";
+import forkify from "./forkify.png";
 export {
   logo,
   backend,
@@ -68,4 +69,5 @@ export {
   Pizzashop,
   natours,
   trillo,
+  forkify,
 };

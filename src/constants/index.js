@@ -28,6 +28,7 @@ import {
   Pizzashop,
   natours,
   trillo,
+  forkify,
 } from "../assets";
 
 export const navLinks = [
@@ -328,7 +329,7 @@ const projects = [
     demo_link: "https://toursite-sable.vercel.app/",
   },
   {
-    name: "Natours",
+    name: "Trillo",
     description:
       "A beautiful home page for a fictional hotel booking website Built while learning CSS Flexbox and Sass",
     tags: [
@@ -356,6 +357,40 @@ const projects = [
     image: trillo,
     source_code_link: "https://github.com/mohammedsanaved/trillo",
     demo_link: "https://trilloapp.vercel.app/",
+  },
+  {
+    name: "Forkify",
+    description:
+      "FORKIFY A webapp to search for recipes and save them to your favourites Built while learning JavaScript ES6, Parcel, MVC",
+    tags: [
+      {
+        name: "Advanced DOM Manipulation",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MVC",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SASS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Asynchronous JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Parcel",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: forkify,
+    source_code_link: "https://github.com/mohammedsanaved/forkify-javascript",
+    demo_link: "https://forkify-recipewebapp.netlify.app/",
   },
 ];
 
