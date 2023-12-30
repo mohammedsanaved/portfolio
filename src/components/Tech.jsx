@@ -24,7 +24,7 @@ const Tech = () => {
             <img
               src={technology.icon}
               alt={technology.name}
-              className={`bg-white duration-300 transition-colors rounded-full p-1 shadow-card`}
+              className={`bg-white duration-300 transition-colors rounded-full p-1 shadow-card tech`}
             />
             {/* <TechImage  /> */}
           </Tilt>

@@ -270,3 +270,21 @@
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
 }
+.tech {
+  animation: tech 5s ease-in-out infinite 1s;
+  border: 4px solid #ffffff;
+}
+@keyframes tech {
+  0% {
+    border-color: #ffffff;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-color: rgb(255, 255, 255);
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-color: #ffffff;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
