@@ -9,7 +9,7 @@ import {
   Navbar,
   Tech,
   Works,
-  // StarsCanvas,
+  StarsCanvas,
 } from "./components";
 import PreLoader from "./components/PreLoader";
 const App = () => {
@@ -34,7 +34,7 @@ const App = () => {
             <About />
             {/* <Feedbacks /> */}
             <Contact />
-            {/* <StarsCanvas /> */}
+            <StarsCanvas />
           </div>
         </div>
       </BrowserRouter>

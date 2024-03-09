@@ -8,6 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import worldHotel from "./worldHotel.png";
 import Pizzashop from "./Pizza.png";
+import pizzaJs from "./pizzaJS.jpg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -23,18 +24,22 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import nikePro from "./nikePro.png";
+import nikeJS from "./nikeJS.jpg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import hotelJS from "./hotelJS.jpg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import natours from "./natours.png";
+import travelJS from "./travelJS.jpg"
 import trillo from "./trillo.png";
 import forkify from "./forkify.png";
+import recipeJS from "./recipe.jpg"
 export {
   logo,
   backend,
@@ -70,4 +75,9 @@ export {
   natours,
   trillo,
   forkify,
+  nikeJS,
+  pizzaJs,
+  recipeJS,
+  travelJS,
+  hotelJS
 };
