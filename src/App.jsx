@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import {
   About,
@@ -11,11 +10,11 @@ import {
   Works,
   // StarsCanvas,
 } from "./components";
-// import PreLoader from "./components/PreLoader";
+import PreLoader from "./components/PreLoader";
 const App = () => {
   return (
     <>
-      {/* <PreLoader /> */}
+      <PreLoader />
       <BrowserRouter>
         <div className=" bg-primary">
           {/* <motion.div
