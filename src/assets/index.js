@@ -30,16 +30,19 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import hotelJS from "./hotelJS.jpg"
+import hotelJS from "./hotelJS.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import natours from "./natours.png";
-import travelJS from "./travelJS.jpg"
+import travelJS from "./travelJS.jpg";
 import trillo from "./trillo.png";
 import forkify from "./forkify.png";
-import recipeJS from "./recipe.jpg"
+import recipeJS from "./recipe.jpg";
+import hole from "./blackhole.webm";
+import main from "./mainIconsdark.svg";
+
 export {
   logo,
   backend,
@@ -79,5 +82,7 @@ export {
   pizzaJs,
   recipeJS,
   travelJS,
-  hotelJS
+  hotelJS,
+  hole,
+  main,
 };

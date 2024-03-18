@@ -9,13 +9,13 @@ import {
   Navbar,
   Tech,
   Works,
-  // StarsCanvas,
+  StarsCanvas,
 } from "./components";
 import PreLoader from "./components/PreLoader";
 const App = () => {
   return (
     <>
-      <PreLoader />
+      {/* <PreLoader /> */}
       <BrowserRouter>
         <div className=" bg-primary">
           {/* <motion.div
@@ -28,13 +28,13 @@ const App = () => {
             <Hero />
           </div>
           {/* <Experience /> */}
+          <Tech />
+          <Works />
+          <About />
+          {/* <Feedbacks /> */}
           <div className="relative z-0">
-            <Tech />
-            <Works />
-            <About />
-            {/* <Feedbacks /> */}
             <Contact />
-            {/* <StarsCanvas /> */}
+            <StarsCanvas />
           </div>
         </div>
       </BrowserRouter>
