@@ -7,13 +7,13 @@ import { Link } from "react-router-dom";
 import { SiLinkedin, SiGithub } from "react-icons/si";
 import cv from "../assets/Mohammed_Sanaved.pdf";
 import { MdDownload } from "react-icons/md";
-import me from "../assets/img01.jpg";
-import { main } from "../assets";
+import me from "../assets/imag01.png";
+// import { main } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import CanvasLoader from "./Loader";
 import { Suspense } from "react";
-import { Download } from "lucide";
+// import { Download } from "lucide";
 // import { hole } from "../assets";
 
 const Hero = () => {
@@ -86,11 +86,7 @@ const Hero = () => {
               variants={slideIn("right", "tween", 0.2, 1)}
               className=""
             >
-              <img
-                src={me}
-                alt="me"
-                className=" bg-cover w-[70%] order-1 ani"
-              />
+              <img src={me} alt="me" className="bg-cover w-[80%] order-1 ani" />
             </motion.div>
           </Suspense>
         </div>
