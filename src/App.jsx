@@ -15,7 +15,7 @@ import PreLoader from "./components/PreLoader";
 const App = () => {
   return (
     <>
-      {/* <PreLoader /> */}
+      <PreLoader />
       <BrowserRouter>
         <div className=" bg-primary">
           {/* <motion.div
