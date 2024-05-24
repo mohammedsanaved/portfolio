@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas, EarthCanvas } from "./canvas";
+import { FaPhoneAlt } from "react-icons/fa";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { CiMap } from "react-icons/ci";
@@ -21,20 +22,24 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Dont be shy! Hit me up! 👇</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
         <div className="flex gap-4 items-center mt-6">
-          <div
-            className={`text-xl sm:text-3xl text-black bg-[#eee] p-1 rounded-full`}
-          >
-            <CiMap />
+          <div className={`text-xl sm:text-3xl text-black p-1 rounded-full`}>
+            <CiMap className="text-white-100" />
           </div>
           <div className={`${styles.sectionSubText}`}>
             Akola, Maharashtra, INDIA
           </div>
         </div>
         <div className="flex gap-4 items-center mt-6">
-          <div
-            className={`text-xl sm:text-3xl bg-[#eee] p-1 text-black rounded-full`}
-          >
-            <MdMail />
+          <div className={`text-xl sm:text-3xl p-1 text-black rounded-full`}>
+            <FaPhoneAlt className="text-white-100" />
+          </div>
+          <div className={`${styles.sectionSubText}`}>
+            <a href="tel:+918421937769">+91 84219 37769</a>
+          </div>
+        </div>
+        <div className="flex gap-4 items-center mt-6">
+          <div className={`text-xl sm:text-3xl p-1 text-black rounded-full`}>
+            <MdMail className="text-white-100" />
           </div>
           <div className={`${styles.sectionSubText}`}>
             <a href="mailto:mosanaved@gmail.com">mosanaved@gmail.com</a>
