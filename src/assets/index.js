@@ -9,6 +9,7 @@ import close from "./close.svg";
 import worldHotel from "./worldHotel.png";
 import Pizzashop from "./Pizza.png";
 import pizzaJs from "./pizzaJS.jpg";
+import lcs from "./company/lcs.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -85,4 +86,5 @@ export {
   hotelJS,
   hole,
   main,
+  lcs,
 };

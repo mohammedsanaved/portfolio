@@ -86,7 +86,7 @@ const Hero = () => {
               variants={slideIn("right", "tween", 0.2, 1)}
               className=""
             >
-              <img src={me} alt="me" className="bg-cover w-[80%] order-1 ani" />
+              <img src={me} alt="me" className="bg-cover w-[90%] order-1 ani" />
             </motion.div>
           </Suspense>
         </div>

@@ -3,7 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import {
   About,
   Contact,
-  // Experience,
+  Experience,
   // Feedbacks,
   Hero,
   Navbar,
@@ -11,11 +11,11 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
-import PreLoader from "./components/PreLoader";
+// import PreLoader from "./components/PreLoader";
 const App = () => {
   return (
     <>
-      <PreLoader />
+      {/* <PreLoader /> */}
       <BrowserRouter>
         <div className=" bg-primary">
           {/* <motion.div
@@ -27,7 +27,7 @@ const App = () => {
             <Navbar />
             <Hero />
           </div>
-          {/* <Experience /> */}
+          <Experience />
           <Tech />
           <Works />
           <About />
