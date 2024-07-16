@@ -26,6 +26,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import nikePro from "./nikePro.png";
 import nikeJS from "./nikeJS.jpg";
+import aora from "./native.jpg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -87,4 +88,5 @@ export {
   hole,
   main,
   lcs,
+  aora,
 };

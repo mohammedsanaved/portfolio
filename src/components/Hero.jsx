@@ -5,7 +5,7 @@ import { styles } from "../styles";
 import handWave from "../assets/waving.png";
 import { Link } from "react-router-dom";
 import { SiLinkedin, SiGithub } from "react-icons/si";
-import cv from "../assets/Mohammed_Sanaved.pdf";
+import cv from "../assets/mohammedsanaved.pdf";
 import { MdDownload } from "react-icons/md";
 import me from "../assets/imag01.png";
 // import { main } from "../assets";
@@ -55,7 +55,8 @@ const Hero = () => {
                 <SiGithub />
               </Link>
               <span className="px-[.3px] py-[.5px] rounded-md flex bg-[#56ccf2] shadow-current">
-                <span className="flex font-semibold items-center text-base text-[#000] sm:text-xl">
+                <span className="flex font-semibold items-center text-base text-[#000] sm:text-xl px-1">
+                  Download
                   <a
                     href={cv}
                     download={"Mohammed-Sanaved-CV"}
