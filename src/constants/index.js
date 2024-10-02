@@ -145,13 +145,13 @@ const technologies = [
 
 const experiences = [
   {
-    title: "FrontEnd Developer",
-    company_name: "Low Code System",
+    title: "Full Stack Developer",
+    company_name: "Low Code System Pvt Ltd",
     icon: lcs,
     iconBg: "#383E56",
     date: "Feb 2024 - present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using React.js & React Native and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -227,20 +227,20 @@ const testimonials = [
 
 const projects = [
   {
-    name: "WorldHotel",
+    name: "WildOasis",
     description:
-      "Currently Working on This DashBoard App, The User of Hotel Employees can perform all the Tasks",
+      "An internal hotel management system allows employees to manage everything about hotel bookings, cabins, and guests",
     tags: [
       {
-        name: "React",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "Supabase",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "Styled Components",
+        name: "Tailwind",
         color: "blue-text-gradient",
       },
       {
@@ -258,7 +258,7 @@ const projects = [
       // (React Query, Styled Components, React Hook Form, Supabase, advanced compound component pattern, authentication, charts, dark mode, professional application planning and development)
     ],
     image: worldHotel,
-    source_code_link: "https://github.com/mohammedsanaved/worldHotel",
+    source_code_link: "https://github.com/mohammedsanaved/wildOasis",
     demo_link: "https://the-wild-oasis.vercel.app/",
   },
   {
