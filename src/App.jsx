@@ -11,19 +11,19 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
-import PreLoader from "./components/PreLoader";
+// import PreLoader from "./components/PreLoader";
 const App = () => {
   return (
     <>
-      <PreLoader />
+      {/* <PreLoader /> */}
       <BrowserRouter>
-        <div className=" bg-primary">
+        <div className=' bg-primary'>
           {/* <motion.div
           className="cursor"
           variants={variants}
           animate={cursorVariant}
         /> */}
-          <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+          <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
             <Navbar />
             <Hero />
           </div>
@@ -32,7 +32,7 @@ const App = () => {
           <Works />
           <About />
           {/* <Feedbacks /> */}
-          <div className="relative z-0">
+          <div className='relative z-0'>
             <Contact />
             <StarsCanvas />
           </div>
