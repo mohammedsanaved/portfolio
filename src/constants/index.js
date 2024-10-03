@@ -147,7 +147,7 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "Low Code System Pvt Ltd",
-    icon: lcs,
+    icon: lcs, 
     iconBg: "#383E56",
     date: "Feb 2024 - present",
     points: [
@@ -259,7 +259,7 @@ const projects = [
     ],
     image: worldHotel,
     source_code_link: "https://github.com/mohammedsanaved/wildOasis",
-    demo_link: "https://the-wild-oasis.vercel.app/",
+    demo_link: "https://wild-oasis-vert.vercel.app/",
   },
   {
     name: "React Native Aora",
