@@ -145,7 +145,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full Stack Developer",
+    title: "Software Developer",
     company_name: "Low Code System Pvt Ltd",
     icon: lcs, 
     iconBg: "#383E56",
@@ -184,7 +184,7 @@ const experiences = [
   //   ],
   // },
   // {
-  //   title: "Full stack Developer",
+  //   title: "Software Developer",
   //   company_name: "Meta",
   //   icon: meta,
   //   iconBg: "#E6DEDD",

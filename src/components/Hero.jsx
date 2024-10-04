@@ -37,7 +37,8 @@ const Hero = () => {
             <span className={`${styles.heroHeadText} text-white`}>
               <img src={handWave} alt='wave' className='w-[60px]' />
               <span className='text-[#56ccf2] text-shadow-lg'>
-                Full Stack <br className='sm:block hidden' /> Developer
+                FrontEnd
+                <br className='sm:block hidden' /> Developer
               </span>
             </span>
             <div className='text-3xl mt-3 flex gap-3'>
@@ -73,7 +74,7 @@ const Hero = () => {
               </span>
               <br className='sm:block hidden' />
               <p>
-                A passionate 🎯️ Full Stack Developer based in Maharashtra,
+                A passionate 🎯️ Software Developer based in Maharashtra,
                 <span className='font-bold'>INDIA 🇮🇳️</span>
               </p>
             </p>
